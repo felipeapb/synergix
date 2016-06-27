@@ -18,19 +18,19 @@ h1{ font-size:2em}
     background: #497157;
 	 position: fixed;
 	 z-index:5000;
-	
+
 
 }
 .setores{ padding-top:80px}
 .brand-logo{ margin:5px 0; }
 .brand-logo img{ width:100%;}
 .alternado{ background:url(../img/fundo1.jpg) no-repeat; height:1250px; width:100%; background-size:cover}
-.equipe{ background:url(../img/fundo2.jpg) no-repeat bottom; min-height:1000px; width:100%; background-size:cover}
+.equipe{ /*background:url(../img/fundo2.jpg) no-repeat bottom; min-height:1000px;*/ width:100%; background-size:cover}
 .clientes{ background:url(../img/fundo3.jpg) no-repeat; min-height:400px; width:100%; background-size:cover}
 .contato{ background:url(../img/fundo4.jpg) no-repeat bottom; min-height:910px; width:100%; background-size:cover}
 .subsolo{ background:#0E0E10}
 .ic  img{ width:70%; height:70%}
-.texto_destaque{ margin-top:890px; 
+.texto_destaque{ margin-top:890px;
     font-family: GillSans, Calibri, Trebuchet, sans-serif; }
 	.texto_destaque h5{ font-size:2em}
 	.margins{ margin-bottom:10px; padding:20px !important; font-size:0.7em}
@@ -52,13 +52,13 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{ line-heig
 .pad5{ padding:3px;}
 
 @media only screen and (min-width: 0) {
-  
+
 .lampada{ background:url(../img/lampada.png) no-repeat bottom; width:100%; height:100% ; min-height:235px; background-size:contain}
- 
+
 }
 
 @media only screen and (min-width: 992px) {
- 
+
 .lampada{ background:url(../img/lampada.png) no-repeat bottom; width:100%; height:100% ; min-height:205px; background-size:contain}
 
 }
@@ -67,3 +67,18 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{ line-heig
 .lampada{ background:url(../img/lampada.png) no-repeat bottom; width:100%; height:100% ; min-height:805px; background-size:contain}
 }
 .tamanho{ font-size:1em !important; line-height:200%}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
