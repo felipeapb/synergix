@@ -51,15 +51,26 @@ $(function(){ //
       }
   });
 var fundo= 2
+$('.texto1').fadeIn(500);
+var texto=1;
 setInterval(function(){
- if(fundo>5){ fundo=1}
-
+ if(fundo==6){ fundo=1;}
+  if(texto==6){ texto=1;}
+texto++;
 $('.alternado').removeClass('alt1').fadeOut(500);
 $('.alternado').removeClass('alt2').fadeOut(500);
 $('.alternado').removeClass('alt3').fadeOut(500);
 $('.alternado').removeClass('alt4').fadeOut(500);
 $('.alternado').removeClass('alt5').fadeOut(500);
+$('.texto1').fadeOut(500);
+$('.texto2').fadeOut(500);
+$('.texto3').fadeOut(500);
+$('.texto4').fadeOut(500);
+$('.texto5').fadeOut(500);
+
 $('.alternado').addClass('alt'+fundo++).fadeIn(2050);
+$('.texto'+texto).fadeIn(2050);
+
 
 
  }, 8000);
