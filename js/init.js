@@ -20,6 +20,20 @@ $(function() {
     }
   });
 });
+
+  $('.d').click(function() {
+  var destino= $(this).attr('data-destino');
+  $('.box_superior_servicos').fadeIn(1000);
+  $('.a').hide();
+  $('.'+destino).fadeIn();
+
+});
+$('.fechando').click(function() {
+  $('.box_superior_servicos').fadeOut(1000);
+  $('.a').fadeOut(1000);
+
+});
+
 $(function(){ //
    var navbarTop = 1000; // retorna a posicao
 
@@ -29,11 +43,25 @@ $(function(){ //
       if (navbarTop < windowTop) {
           $('#top').addClass("absoluto"); //adiciona a classe
           //$('#navbar').css({ position: 'fixed', top: 0 }); ou altere o estilo conforme quiser
-		   
+
       } else {
           $('#top').removeClass("absoluto"); //remove a classe
-		  
+
           //$('#navbar').css('position','static'); ou altere o estilo
       }
   });
+var fundo= 2
+setInterval(function(){
+ if(fundo>5){ fundo=1}
+
+$('.alternado').removeClass('alt1').fadeOut(500);
+$('.alternado').removeClass('alt2').fadeOut(500);
+$('.alternado').removeClass('alt3').fadeOut(500);
+$('.alternado').removeClass('alt4').fadeOut(500);
+$('.alternado').removeClass('alt5').fadeOut(500);
+$('.alternado').addClass('alt'+fundo++).fadeIn(2050);
+
+
+ }, 8000);
+
 });

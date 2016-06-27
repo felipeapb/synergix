@@ -24,7 +24,6 @@ h1{ font-size:2em}
 .setores{ padding-top:80px}
 .brand-logo{ margin:5px 0; }
 .brand-logo img{ width:100%;}
-.alternado{ background:url(../img/fundo1.jpg) no-repeat; height:1250px; width:100%; background-size:cover}
 .equipe{ /*background:url(../img/fundo2.jpg) no-repeat bottom; min-height:1000px;*/ width:100%; background-size:cover}
 .clientes{ background:url(../img/fundo3.jpg) no-repeat; min-height:400px; width:100%; background-size:cover}
 .contato{ background:url(../img/fundo4.jpg) no-repeat bottom; min-height:910px; width:100%; background-size:cover}
@@ -82,3 +81,16 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{ line-heig
     width: 100%;
     height: 100%;
 }
+.alternado{  height:1250px; width:100%; background-size:cover}
+.alt1{background:url(../img/fundo1.jpg) no-repeat; background-size:cover}
+.alt2{background:url(../img/fd2.jpg) no-repeat; background-size:cover}
+.alt3{background:url(../img/fd3.jpg) no-repeat; background-size:cover}
+.alt4{background:url(../img/fd4.jpg) no-repeat; background-size:cover}
+.alt5{background:url(../img/fd5.jpg) no-repeat; background-size:cover}
+.box_superior_servicos{ display: none; width: 80%; height: 80%; position: absolute; margin:90px 10%; padding: 20px;background: #fff;z-index: 100000000000000000}
+h6{ color:#999;}
+.fechando{ float: right; background-color: #B20000; color: #fff; width: 30px; height: 30px; text-align: center; line-height: 30px; -webkit-border-radius: 1000px;
+-moz-border-radius: 1000px;border-radius: 1000px; margin: 20px; cursor: pointer;}
+.cinza{ background: #EEEEEE;}
+.linha{ padding: 10px; margin: 10px;}
+.a{ display: none}
