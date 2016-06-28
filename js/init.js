@@ -55,8 +55,9 @@ $('.texto1').fadeIn(500);
 var texto=1;
 setInterval(function(){
  if(fundo==6){ fundo=1;}
-  if(texto==6){ texto=1;}
+  if(texto==5){ texto=0;}
 texto++;
+
 $('.alternado').removeClass('alt1').fadeOut(500);
 $('.alternado').removeClass('alt2').fadeOut(500);
 $('.alternado').removeClass('alt3').fadeOut(500);
@@ -71,8 +72,7 @@ $('.texto5').fadeOut(500);
 $('.alternado').addClass('alt'+fundo++).fadeIn(2050);
 $('.texto'+texto).fadeIn(2050);
 
-
-
+console.log('.texto'+texto+'alt'+fundo);
  }, 8000);
 
 });
