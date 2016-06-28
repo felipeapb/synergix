@@ -1,0 +1,610 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Synergix - Projetos com foco no meio ambiente e na sustentabilidade" />
+        <meta name="keywords" content="sutentabilidade, sustentável, coleta seletiva, meio ambiente, planeta, relatório ise, bv rio"/>
+<title>Synergix - Projetos, Meio Ambiente e Sustentabilidade</title>
+        <link rel="stylesheet" href="css/style_vertical.css" type="text/css" media="screen"/>
+        <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <link  rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+<style>
+        a{
+            color:#666;
+            text-decoration:none;
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+        span.reference{
+            position:fixed;
+            left:10px;
+            bottom:10px;
+            font-size:13px;
+            font-weight:bold;
+        }
+        span.reference a{
+            color:#fff;
+            text-shadow:1px 1px 1px #000;
+            padding-right:20px;
+        }
+        span.reference a:hover{
+            color:#ddd;
+            text-decoration:none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+  <div class="section black" id="section1">
+ <div id="meio">
+ 	<div id="topomenu"><a href="https://www.facebook.com/Synergix.Ambiental" style="color:#fff; ">Facebook</a>
+
+    <div id="topo">
+    </div>
+    <div id="topo">
+
+
+    </div>
+
+    </div>
+
+
+    <br clear="all" />
+
+
+  <div id="sidebarleft">
+      	<div id="logo"><ul class="nav" style="margin:0px; padding:0px;"><li style="padding-top:0px"><a href="#section1"><img src="images/logo.png" width="250"  border="0" /></a></li></ul></div>
+
+  </div>
+  <div id="menunav">
+  <ul class="nav">
+  <li style="margin-left:29px;"><a href="#section1">Home</a></li>
+   	<li><a href="#section2">Sobre</a></li>
+    <li><a href="#section3">Consultoria a Prefeituras</a></li>
+    <li><a href="#section4">Consultoria a Empresas</a></li>
+    <li><a href="#section5">Parceiros</a></li>
+    <li><a href="#section6">Contato</a></li>
+    </ul>
+  </div>
+
+  <br clear="all" />
+
+
+
+<div id="coments" style=" margin-bottom:10px; padding-bottom:0px;"><img src="images/topo.jpg" width="910"  /></div>
+
+
+
+<div id="coments" style="margin-top:10px;">
+  <p>
+  <h2>Projetos com foco no meio ambiente e na sustentabilidade.</h2>
+    <p>Com o moderno conceito de flexibilidade empresarial, a Synergix Consultoria e Projetos Ambientais possui capacidade de atender clientes em todo Brasil, graças ao dinamismo de seus consultores.</p>
+
+
+
+
+
+
+ </div>
+
+
+
+<div id="bloco"><ul class="nav" style="margin:0px; padding:0px;"><li style="padding:0px;" ><a href="#section3"><img src="images/lavanderia.jpg" width="268" height="200" border="0" class="opacidade" /></a></li></ul></div>
+<div id="bloco"><ul class="nav" style="margin:0px; padding:0px;"><li style="padding:0px;" ><a href="#section4"><img src="images/image-coleta-seletiva.jpg" width="268" height="200" border="0" class="opacidade" /></a></li></ul></div>
+<div id="bloco"><ul class="nav" style="margin:0px; padding:0px;"><li style="padding:0px;" ><a href="#section4"><img src="images/posto.jpg" width="268" height="200" border="0" class="opacidade" /></a></li></ul></div>
+
+
+
+    <div id="bloco_legenda">Consultoria a empresas levando  as soluções mais eficazes a cada demanda</div>
+    <div id="bloco_legenda">Projetos na área ambiental que melhoram a relação da cidade com o meio ambiente</div>
+       <div id="bloco_legenda">Desenvolvemos projetos com foco no meio ambiente e na sustentabilidade, orientados pelo rigor técnico absoluto e pelo pensamento estratégico.</div> <br clear="all" />
+ <br clear="all" />
+    <div style="border-top:1px solid #ccc; margin:auto; margin-top:20px; margin-bottom:10px; width:912px; "></div>
+    <!--Rodape-->
+    <div id="menunav" style="background:#ececec; width:912px; padding-bottom:10px; border-bottom:1px solid #ccc;">
+  <ul class="nav">
+  <li style="margin-left:135px;"><a href="#section1" style="color:#666; font-family:arial; font-size:12px;" >Home</a></li>
+   	<li><a href="#section2" style="color:#666; font-family:arial; font-size:12px;" >Sobre</a></li>
+    <li><a href="#section3" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Prefeituras</a></li>
+    <li><a href="#section4" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Empresas</a></li>
+    <li><a href="#section5" style="color:#666; font-family:arial; font-size:12px;" >Parceiros</a></li>
+    <li><a href="#section6" style="color:#666; font-family:arial; font-size:12px;" >Contato</a></li>
+    </ul>
+  </div>
+<!--Fim Rodape-->
+
+ <div id="next_left">Synergix - Todos os Direitos Reservados - © 2012</div><div id="next"><a href="http://www.wi3c.com.br" target="_blank"><img src="images/wi3c.png" alt="Wi3C Agência Digital" width="81" height="30" border="0" class="opacidade" /></a> </div><br clear="all" />
+
+                </div></div>
+
+
+             <!--Início Section2-->
+
+        <div class="section white" id="section2">
+          <div id="meio">
+ 	<div id="topomenu"><a href="https://www.facebook.com/Synergix.Ambiental" style="color:#fff;">Facebook</a>
+
+    <div id="topo">
+    </div>
+    <div id="topo">
+
+
+    </div>
+
+    </div>
+
+
+    <br clear="all" />
+
+
+  <div id="sidebarleft">
+      	<div id="logo"><ul class="nav" style="margin:0px; padding:0px;"><li style="padding-top:0px"><a href="#section1"><img src="images/logo.png" width="250"  border="0" /></a></li></ul></div>
+
+  </div>
+  <div id="menunav">
+  <ul class="nav">
+  <li style="margin-left:29px;"><a href="#section1">Home</a></li>
+   	   	<li><a href="#section2" style=" color:#FC0; text-decoration:underline;">Sobre</a></li>
+    <li><a href="#section3">Consultoria a Prefeituras</a></li>
+    <li><a href="#section4">Consultoria a Empresas</a></li>
+    <li><a href="#section5">Parceiros</a></li>
+    <li><a href="#section6">Contato</a></li>
+    </ul>
+  </div>
+
+  <br clear="all" />
+
+
+<div id="coments" style="margin-top:10px;">
+  <p>
+    <img src="images/right.png" width="147" height="530" style="float:right; margin-left:20px"/>
+  <h2>Corpo técnico capacitado a desenvolver as soluções mais eficazes à cada demanda.</h2>
+
+  <h4>Conheça um pouco mais da nossa empresa</h4>
+
+  <div style="border-top:1px solid #ccc; margin-left:10px;  margin-top:5px; margin-bottom:15px; width:600px; "></div>
+
+    <p>Fundada em 2012, com o moderno conceito de flexibilidade empresarial, a Synergix Consultoria e Projetos Ambientais possui capacidade de atender clientes em todo Brasil, graças ao dinamismo de seus consultores.</p>
+
+    <p>Desenvolvemos projetos com foco no meio ambiente e na sustentabilidade, orientados pelo rigor técnico absoluto e pelo pensamento estratégico.<br />
+      <br />
+    </p>
+
+    <h4 style=" margin-left:20px; ">"Atendemos prefeituras, indústrias e estabelecimentos comerciais".<br />
+      <br />
+    </h4>
+
+<p>A Synergix explora as mais modernas ferramentas tecnológicas, com atendimento presencial e remoto. Sempre fundamentada no conceito de sinergia: o todo é maior que a soma das partes.<br />
+  <br />
+</p>
+<p><strong>Missão</strong>: Atender com excelência às demandas dos clientes pelo desenvolvimento e oferta de produtos e serviços que contribuam para um cenário harmonioso entre empresas e o meio ambiente.</p>
+<p><strong>Visão: </strong>Ser referência em prestação de serviços na área ambiental, sendo reconhecida como a melhor opção, por clientes, colaboradores, comunidade e fornecedores.</p>
+<p><strong>Valores: </strong>Rigor Técnico, ética, pensamento estratégico, comprometimento, inovação e melhoria contínua.</p>
+
+
+
+
+
+
+ </div>
+
+
+
+<br clear="all" />
+
+    <div style="border-top:1px solid #ccc; margin:auto; margin-top:20px; margin-bottom:20px; width:912px; "></div>
+
+<!--Rodape-->
+    <div id="menunav" style="background:#ececec; width:912px; padding-bottom:10px; border-bottom:1px solid #ccc;">
+  <ul class="nav">
+  <li style="margin-left:135px;"><a href="#section1" style="color:#666; font-family:arial; font-size:12px;" >Home</a></li>
+   	<li><a href="#section2" style="color:#666; font-family:arial; font-size:12px;" >Sobre</a></li>
+    <li><a href="#section3" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Prefeituras</a></li>
+    <li><a href="#section4" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Empresas</a></li>
+    <li><a href="#section5" style="color:#666; font-family:arial; font-size:12px;" >Parceiros</a></li>
+    <li><a href="#section6" style="color:#666; font-family:arial; font-size:12px;" >Contato</a></li>
+    </ul>
+  </div>
+<!--Fim Rodape-->
+
+
+ <div id="next_left">Synergix - Todos os Direitos Reservados - © 2012</div><div id="next"><a href="http://www.wi3c.com.br" target="_blank"><img src="images/wi3c.png" alt="Wi3C Agência Digital" width="81" height="30" border="0" class="opacidade" /></a> </div><br clear="all" />
+
+          </div>
+
+</div>
+
+<!--Início Section3-->
+
+        <div class="section white" id="section3">
+            <div id="meio">
+ 	<div id="topomenu"><a href="https://www.facebook.com/Synergix.Ambiental" style="color:#fff;">Facebook</a>
+
+    <div id="topo">
+    </div>
+    <div id="topo">
+
+
+    </div>
+
+    </div>
+
+
+    <br clear="all" />
+
+
+  <div id="sidebarleft">
+      	<div id="logo"><ul class="nav" style="margin:0px; padding:0px;"><li style="padding-top:0px"><a href="#section1"><img src="images/logo.png" width="250"  border="0" /></a></li></ul></div>
+
+  </div>
+  <div id="menunav">
+  <ul class="nav">
+   	<li style="margin-left:29px;"><a href="#section1">Home</a></li>
+   	<li><a href="#section2">Sobre</a></li>
+    <li><a href="#section3" style=" color:#FC0; text-decoration:underline; ">Consultoria a Prefeituras</a></li>
+    <li><a href="#section4">Consultoria a Empresas</a></li>
+    <li><a href="#section5">Parceiros</a></li>
+    <li><a href="#section6">Contato</a></li>
+    </ul>
+  </div>
+
+  <br clear="all" />
+
+
+<div id="coments" style="margin-top:10px;">
+  <p>
+  <h2>Consultoria a prefeituras:</h2>
+  <img src="images/image-coleta-seletiva.jpg" width="200"  style="float:right; margin-left:20px" />
+  <h4>Elaboramos projetos na área ambiental que melhoram a relação da cidade com o meio ambiente. </h4>
+
+  <div style="border-top:1px solid #ccc; margin-left:10px;  margin-top:5px; margin-bottom:15px; width:600px; "></div>
+
+
+  <p>Seguimos as diretrizes do Governo Federal para elaboração de projetos, o que possibilita angariar recursos via participação em editais públicos de financiamento. Além disso, orientamos nossos projetos visando uma maior captação de repasse de verbas oriundas do Governo Estadual.</p>
+
+    <h4>1) Plano de Gestão Integrada de Resíduos Sólidos</h4>
+
+    <p>Atendendo às determinações da lei 12.305 de 2010, que estabelece a Política Nacional dos Resíduos Sólidos, a partir de agosto de 2012, todas as prefeituras deverão possuir um Plano de Gestão Integrada de Resíduos Sólidos. Nossos consultores estão aptos a desenvolver um plano adequado à realidade da cidade com rigor técnico e pensamento estratégico.</p>
+
+<h4>2) Projetos de Coleta Seletiva Solidária</h4>
+
+<h4>3) Planos de Gerenciamento de Resíduos da Construção Civil</h4>
+
+<p>Para outras demandas,  consulte nosso diretor técnico <font color="#41683c">cferreira@synergix.com.br</font></p>
+
+
+
+
+
+
+
+
+ </div>
+
+
+
+<br clear="all" />
+
+    <div style="border-top:1px solid #ccc; margin:auto; margin-top:20px; margin-bottom:20px; width:912px; "></div>
+
+    <!--Rodape-->
+    <div id="menunav" style="background:#ececec; width:912px; padding-bottom:10px; border-bottom:1px solid #ccc;">
+  <ul class="nav">
+  <li style="margin-left:135px;"><a href="#section1" style="color:#666; font-family:arial; font-size:12px;" >Home</a></li>
+   	<li><a href="#section2" style="color:#666; font-family:arial; font-size:12px;" >Sobre</a></li>
+    <li><a href="#section3" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Prefeituras</a></li>
+    <li><a href="#section4" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Empresas</a></li>
+    <li><a href="#section5" style="color:#666; font-family:arial; font-size:12px;" >Parceiros</a></li>
+    <li><a href="#section6" style="color:#666; font-family:arial; font-size:12px;" >Contato</a></li>
+    </ul>
+  </div>
+<!--Fim Rodape-->
+
+
+ <div id="next_left">Synergix - Todos os Direitos Reservados - © 2012</div><div id="next"><a href="http://www.wi3c.com.br" target="_blank"><img src="images/wi3c.png" alt="Wi3C Agência Digital" width="81" height="30" border="0" class="opacidade" /></a> </div><br clear="all" />
+
+          </div>
+
+</div>
+
+
+        <!--Início Section4-->
+
+
+            <div class="section white" id="section4">
+            <div id="meio">
+ 	<div id="topomenu"><a href="https://www.facebook.com/Synergix.Ambiental" style="color:#fff;">Facebook</a>
+
+    <div id="topo">
+    </div>
+    <div id="topo">
+
+
+    </div>
+
+    </div>
+
+
+    <br clear="all" />
+
+
+  <div id="sidebarleft">
+      	<div id="logo"><ul class="nav" style="margin:0px; padding:0px;"><li style="padding-top:0px"><a href="#section1"><img src="images/logo.png" width="250"  border="0" /></a></li></ul></div>
+
+  </div>
+  <div id="menunav">
+  <ul class="nav">
+   	<li style="margin-left:29px;"><a href="#section1">Home</a></li>
+   	<li><a href="#section2">Sobre</a></li>
+    <li><a href="#section3">Consultoria a Prefeituras</a></li>
+    <li><a href="#section4" style=" color:#FC0; text-decoration:underline; ">Consultoria a Empresas</a></li>
+    <li><a href="#section5">Parceiros</a></li>
+    <li><a href="#section6">Contato</a></li>
+    </ul>
+  </div>
+
+  <br clear="all" />
+
+
+<div id="coments" style="margin-top:10px;">
+  <p>
+  <h2>Consultoria a empresas:</h2>
+
+  <div style="border-top:1px solid #ccc; margin-left:10px;  margin-top:5px; margin-bottom:15px; width:680px; "></div>
+
+
+
+
+ <h4>1) Integração à Bolsa Verde Rio (BVRio):</h4>
+
+<p>Orientamos interessados no comércio de créditos ambientais, seja projetando
+
+ativos para venda, seja avaliando potenciais compras.</p>
+<br />
+<h4>2) Licenciamento Ambiental</h4>
+<p>
+Prestamos assessoria técnica e jurídica na condução do seu licenciamento perante o órgão responsável.</p>
+<br />
+<h4>3) Projetos: </h4>
+<p>Reuso de Água , Gerenciamento de Resíduos Sólidos e
+Eficiência energética </p>
+<br /><br />
+
+<p>Para outras demandas, consulte nosso diretor técnico</p>
+
+<strong> <p><a href="mailto:cferreira@synergys.com.br">cferreira@synergix.com.br</a></p></strong>
+
+
+ <div style=" margin:30px auto; overflow:hidden; width:680px;">
+ <img src="images/mg1.jpg" class="redonddo" />
+  <img src="images/mg2.jpg" class="redonddo" />
+  <img src="images/mg3.jpg" class="redonddo" />
+  </div>
+
+
+
+
+
+
+
+
+
+ </div>
+
+
+
+<br clear="all" />
+
+    <div style="border-top:1px solid #ccc; margin:auto; margin-top:20px; margin-bottom:20px; width:912px; "></div>
+
+<!--Rodape-->
+    <div id="menunav" style="background:#ececec; width:912px; padding-bottom:10px; border-bottom:1px solid #ccc;">
+  <ul class="nav">
+  <li style="margin-left:135px;"><a href="#section1" style="color:#666; font-family:arial; font-size:12px;" >Home</a></li>
+   	<li><a href="#section2" style="color:#666; font-family:arial; font-size:12px;" >Sobre</a></li>
+    <li><a href="#section3" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Prefeituras</a></li>
+    <li><a href="#section4" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Empresas</a></li>
+    <li><a href="#section5" style="color:#666; font-family:arial; font-size:12px;" >Parceiros</a></li>
+    <li><a href="#section6" style="color:#666; font-family:arial; font-size:12px;" >Contato</a></li>
+    </ul>
+  </div>
+<!--Fim Rodape-->
+
+
+ <div id="next_left">Synergix - Todos os Direitos Reservados - © 2012</div><div id="next"><a href="http://www.wi3c.com.br" target="_blank"><img src="images/wi3c.png" alt="Wi3C Agência Digital" width="81" height="30" border="0" class="opacidade" /></a> </div><br clear="all" />
+
+          </div>
+
+
+</div>
+
+ <!--Início da Section5-->
+
+
+  <div class="section white" id="section5">
+            <div id="meio">
+ 	<div id="topomenu"> <a href="https://www.facebook.com/Synergix.Ambiental" style="color:#fff;">Facebook</a>
+
+    <div id="topo">
+    </div>
+    <div id="topo">
+
+
+    </div>
+
+    </div>
+
+
+    <br clear="all" />
+
+
+  <div id="sidebarleft">
+      	<div id="logo"><ul class="nav" style="margin:0px; padding:0px;"><li style="padding-top:0px"><a href="#section1"><img src="images/logo.png" width="250"  border="0" /></a></li></ul></div>
+
+  </div>
+  <div id="menunav">
+  <ul class="nav">
+   	<li style="margin-left:29px;"><a href="#section1">Home</a></li>
+   	<li><a href="#section2">Sobre</a></li>
+    <li><a href="#section3">Consultoria a Prefeituras</a></li>
+    <li><a href="#section4">Consultoria a Empresas</a></li>
+    <li><a href="#section5" style=" color:#FC0; text-decoration:underline; ">Parceiros</a></li>
+    <li><a href="#section6">Contato</a></li>
+    </ul>
+  </div>
+
+  <br clear="all" />
+
+
+
+
+
+
+
+<div id="coments" style="margin-top:10px; padding-top:5px; padding-bottom:5px;">
+
+  <h2>Parceiros</h2>
+
+
+
+
+
+
+
+ </div>
+
+
+
+
+<div id="bloco"><a href="http://www.sebrae.com.br/sites/PortalSebrae/" target="_blank"><img src="images/sebrae.jpg" width="268" height="200" /></a></div>
+<!--<div id="bloco"><a href="http://www.a2visualeambiental.com.br/" target="_blank"><img src="images/a2.jpg" width="268" height="200" border="0" /></a></div>
+<div id="bloco"><a href="http://www.ecologicaconsultoria.com.br"  target="_blank"><img src="images/ecol.jpg" width="268" height="200" border="0" /></a></div>
+--><br clear="all" />
+
+    <div style="border-top:1px solid #ccc; margin:auto; margin-top:20px; margin-bottom:20px; width:912px; "></div>
+
+
+<!--Rodape-->
+    <div id="menunav" style="background:#ececec; width:912px; padding-bottom:10px; border-bottom:1px solid #ccc;">
+  <ul class="nav">
+  <li style="margin-left:135px;"><a href="#section1" style="color:#666; font-family:arial; font-size:12px;" >Home</a></li>
+   	<li><a href="#section2" style="color:#666; font-family:arial; font-size:12px;" >Sobre</a></li>
+    <li><a href="#section3" style="color:#666; font-family:arial; font-size:12px;" >Consultoria a Prefeituras</a></li>
+    <li><a href="#section4" style="color:#666; font-family:arial; font-size:12px;" >Consultoria a Empresas</a></li>
+    <li><a href="#section5" style="color:#666; font-family:arial; font-size:12px;" >Parceiros</a></li>
+    <li><a href="#section6" style="color:#666; font-family:arial; font-size:12px;" >Contato</a></li>
+    </ul>
+  </div>
+<!--Fim Rodape-->
+
+ <div id="next_left">Synergix - Todos os Direitos Reservados - © 2012</div><div id="next"><a href="http://www.wi3c.com.br" target="_blank"><img src="images/wi3c.png" alt="Wi3C Agência Digital" width="81" height="30" border="0" class="opacidade" /></a> </div><br clear="all" />
+
+                </div>
+
+</div>
+
+
+<!--Início do final-->
+
+<div class="section white" id="section6">
+  <div id="meio">
+ 	<div id="topomenu"><a href="https://www.facebook.com/Synergix.Ambiental" style="color:#fff;">Facebook</a>
+
+    <div id="topo">
+    </div>
+    <div id="topo">
+
+
+    </div>
+
+    </div>
+
+
+    <br clear="all" />
+
+
+  <div id="sidebarleft">
+      	<div id="logo"><ul class="nav" style="margin:0px; padding:0px;"><li style="padding-top:0px"><a href="#section1"><img src="images/logo.png" width="250"  border="0" /></a></li></ul></div>
+
+  </div>
+  <div id="menunav">
+  <ul class="nav">
+   	<li style="margin-left:29px;"><a href="#section1">Home</a></li>
+   	<li><a href="#section2">Sobre</a></li>
+    <li><a href="#section3">Consultoria a Prefeituras</a></li>
+    <li><a href="#section4">Consultoria a Empresas</a></li>
+    <li><a href="#section5">Parceiros</a></li>
+    <li><a href="#section6" style=" color:#FC0; text-decoration:underline; ">Contato</a></li>
+    </ul>
+  </div>
+
+  <br clear="all" />
+  <div style="width:510px; height:280px; float:left; margin-top:20px; margin-left:65px; border:1px solid #ccc; padding:0px;"> <img src="images/contato.jpg" width="510" height="280" /></div>
+
+<div id="bloco" style="height:300px">
+<div id="contato"><strong style="color:#063; font-size:22px; letter-spacing:-1px;">Contatos:</strong><p><font color="#666"><strong>Diretor técnico: </strong><br />Cléber Ferreira <br />(022) 99791-8779<br/>cferreira@synergix.com.br </font><br /><br /><font color="#666"><strong>Coord. de Projetos: </strong><br />
+Rafael Moreno<br />(021) 98188-1689  <br />
+          rmoreno@synergix.com.br</font> <br /><br />
+          <font color="#666"><strong>Trabalhe conosco: </strong><br />
+          rh@synergix.com.br</font>
+    </div></div>
+
+    <br clear="all" />
+
+    <div style="border-top:1px solid #ccc; margin:auto; margin-top:20px; margin-bottom:20px; width:912px; "></div>
+
+
+<!--Rodape-->
+    <div id="menunav" style="background:#ececec; width:912px; padding-bottom:10px; border-bottom:1px solid #ccc;">
+  <ul class="nav">
+  <li style="margin-left:135px;"><a href="#section1" style="color:#666; font-family:arial; font-size:12px;" >Home</a></li>
+   	<li><a href="#section2" style="color:#666; font-family:arial; font-size:12px;" >Sobre</a></li>
+    <li><a href="#section3" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Prefeituras</a></li>
+    <li><a href="#section4" style="color:#666; font-family:arial; font-size:12px;" >Consultoria à Empresas</a></li>
+    <li><a href="#section5" style="color:#666; font-family:arial; font-size:12px;" >Parceiros</a></li>
+    <li><a href="#section6" style="color:#666; font-family:arial; font-size:12px;" >Contato</a></li>
+    </ul>
+  </div>
+<!--Fim Rodape-->
+
+ <div id="next_left">Synergix - Todos os Direitos Reservados - © 2012</div><div id="next"><a href="http://www.wi3c.com.br" target="_blank"><img src="images/wi3c.png" alt="Wi3C Agência Digital" width="81" height="30" border="0" class="opacidade" /></a> </div><br clear="all" />
+
+  </div>
+
+</div>
+
+
+
+
+         <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('ul.nav a').bind('click',function(event){
+                    var $anchor = $(this);
+
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+                    /*
+                    if you don't want to use the easing effects:
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                    */
+                    event.preventDefault();
+                });
+            });
+        </script>
+
+</body>
+</html>
