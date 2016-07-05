@@ -2940,6 +2940,7 @@ ul.staggered-list li {
     .texto_destaque{ position: absolute; width: 800px !important; bottom: -400px; left:50% !important; margin-left: -400px !important;
 }
 }
+.corfundo{ background-color: #111 !important}
 
 
 @media only screen and (min-width: 993px) {
