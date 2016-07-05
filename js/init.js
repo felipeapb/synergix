@@ -54,8 +54,8 @@ var fundo= 2
 $('.texto1').fadeIn(500);
 var texto=1;
 setInterval(function(){
- if(fundo==6){ fundo=1;}
-  if(texto==5){ texto=0;}
+ if(fundo==7){ fundo=1;}
+  if(texto==6){ texto=0;}
 texto++;
 
 $('.alternado').removeClass('alt1').fadeOut(500);
@@ -63,16 +63,40 @@ $('.alternado').removeClass('alt2').fadeOut(500);
 $('.alternado').removeClass('alt3').fadeOut(500);
 $('.alternado').removeClass('alt4').fadeOut(500);
 $('.alternado').removeClass('alt5').fadeOut(500);
+$('.alternado').removeClass('alt6').fadeOut(500);
 $('.texto1').fadeOut(500);
 $('.texto2').fadeOut(500);
 $('.texto3').fadeOut(500);
 $('.texto4').fadeOut(500);
 $('.texto5').fadeOut(500);
+$('.texto6').fadeOut(500);
+$('.bl').removeClass('seletoresverde');
+$('.bol'+fundo).addClass('seletoresverde');
 
-$('.alternado').addClass('alt'+fundo++).fadeIn(2050);
-$('.texto'+texto).fadeIn(2050);
+$('.alternado').addClass('alt'+fundo++).fadeIn(1050);
+$('.texto'+texto).fadeIn(1050);
 
-console.log('.texto'+texto+'alt'+fundo);
- }, 8000);
 
+ }, 4000);
+ $('.bl').click(function() {
+  var destino=$(this).attr('data-destino');
+  var texto=$(this).attr('data-texto');
+  $('.alternado').removeClass('alt1').fadeOut(500);
+  $('.alternado').removeClass('alt2').fadeOut(500);
+  $('.alternado').removeClass('alt3').fadeOut(500);
+  $('.alternado').removeClass('alt4').fadeOut(500);
+  $('.alternado').removeClass('alt5').fadeOut(500);
+  $('.alternado').removeClass('alt6').fadeOut(500);
+  $('.texto1').fadeOut(500);
+  $('.texto2').fadeOut(500);
+  $('.texto3').fadeOut(500);
+  $('.texto4').fadeOut(500);
+  $('.texto5').fadeOut(500);
+  $('.texto6').fadeOut(500);
+
+$('.alternado').addClass(destino).fadeIn();
+
+$('.'+texto).fadeIn();
+
+ });
 });
