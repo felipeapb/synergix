@@ -90,7 +90,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{ line-heig
 .alt5{background:url(../img/fd4.jpg) no-repeat; background-size:cover; background-position: top;}
 .alt6{background:url(../img/fd5.jpg) no-repeat; background-size:cover; background-position: top;}
 
-.box_superior_servicos{ display: none; width: 80%; height: 80%; position: absolute; margin:90px 10%; padding: 20px;background: #fff;z-index: 100000000000000000}
+.box_superior_servicos{ display: none; width: 80%; height: 80%; position: fixed; margin:90px 10%; padding: 20px;background: #fff;z-index: 100000000000000000}
 h6{ color:#999;}
 .fechando{ float: right; background-color: #B20000; color: #fff; width: 30px; height: 30px; text-align: center; line-height: 30px;border-radius: 1000px; margin: 20px; cursor: pointer;}
 .cinza{ background: #EEEEEE;}
