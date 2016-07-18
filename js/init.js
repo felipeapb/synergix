@@ -104,4 +104,47 @@ $('.alternado').addClass(destino).fadeIn();
 $('.'+texto).fadeIn();
 
  });
+
+ //enviando email
+
+
+   $(".loads").hide();
+
+   $(".erro").hide();
+
+   $(".sucesso").hide();
+
+    $("#botao").click(function(){
+     var nome     = jQuery.trim($("#first_name").val());
+     var sobrenome    = jQuery.trim($("#last_name").val());
+     var email  = jQuery.trim($("#email").val());
+     var mensagem = jQuery.trim($("#texto").val());
+
+    if(nome != "" && email != "" && sobrenome != "" && mensagem != "") {
+ $(".loads").show();
+ $(".erro").hide();
+ $(".sucesso").hide();
+//enviando usando ajax
+$.ajax({
+  type: "POST",
+  url: "RPC_contato.php",
+  data: "nome="+nome+"&sobrenome="+sobrenome+"&email="+email+"&mensagem="+mensagem,
+  success: function(ret){
+    if(ret == 'ok') {
+						$(".loads").hide();
+
+						$(".sucesso").show();
+
+						$(".erro").hide();
+
+	} else {
+						alert('Problema no envio do email. Favor entrar em contato pelo email synergix@synergix.com.br');
+  }
+}
+ });
+    }else{
+     $(".erro").show().text('Por favor, preencha todos os campos');
+    }
+  });
+
 });
