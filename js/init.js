@@ -127,7 +127,7 @@ $('.'+texto).fadeIn();
 //enviando usando ajax
 $.ajax({
   type: "POST",
-  url: "RPC_contato.php",
+  url: "../admin/email",
   data: "nome="+nome+"&sobrenome="+sobrenome+"&email="+email+"&mensagem="+mensagem,
   success: function(ret){
     if(ret == 'ok') {

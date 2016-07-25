@@ -1,6 +1,6 @@
 <?php
 class Products_model extends CI_Model {
- 
+
     /**
     * Responsable for auto load the database
     * @return void
@@ -12,7 +12,7 @@ class Products_model extends CI_Model {
 
     /**
     * Get product by his is
-    * @param int $product_id 
+    * @param int $product_id
     * @return array
     */
     public function get_product_by_id($id)
@@ -21,25 +21,27 @@ class Products_model extends CI_Model {
 		$this->db->from('products');
 		$this->db->where('id', $id);
 		$query = $this->db->get();
-		return $query->result_array(); 
+		return $query->result_array();
     }
 
     /**
     * Fetch products data from the database
     * possibility to mix search, filter and order
-    * @param int $manufacuture_id 
-    * @param string $search_string 
+    * @param int $manufacuture_id
+    * @param string $search_string
     * @param strong $order
-    * @param string $order_type 
+    * @param string $order_type
     * @param int $limit_start
     * @param int $limit_end
     * @return array
     */
     public function get_products($manufacture_id=null, $search_string=null, $order=null, $order_type='Asc', $limit_start, $limit_end)
     {
-	    
+
 		$this->db->select('products.id');
 		$this->db->select('products.description');
+    $this->db->select('products.lido');
+    $this->db->select('products.horario');
 		$this->db->select('products.stock');
 		$this->db->select('products.cost_price');
 		$this->db->select('products.sell_price');
@@ -69,8 +71,8 @@ class Products_model extends CI_Model {
 
 
 		$query = $this->db->get();
-		
-		return $query->result_array(); 	
+
+		return $query->result_array();
     }
 
     /**
@@ -96,13 +98,13 @@ class Products_model extends CI_Model {
 		    $this->db->order_by('id', 'Asc');
 		}
 		$query = $this->db->get();
-		return $query->num_rows();        
+		return $query->num_rows();
     }
 
     /**
     * Store the new item into the database
     * @param array $data - associative array with data to store
-    * @return boolean 
+    * @return boolean
     */
     function store_product($data)
     {
@@ -136,8 +138,8 @@ class Products_model extends CI_Model {
     */
 	function delete_product($id){
 		$this->db->where('id', $id);
-		$this->db->delete('products'); 
+		$this->db->delete('products');
 	}
- 
+
 }
-?>	
+?>

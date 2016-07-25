@@ -1,42 +1,9 @@
-<?php
-
-###########################################################################
+<?$host = "http://sinergyx.mysql.dbaas.com.br"; // sempre deixe local host nunka mudeecho $host;$user = "sinergyx"; // seu usuario do db$pass = "sinergia12";// sua senha do sb$db = "sinergyx"; //o nome do sue banco de dados que no caso deii o nome de cadastro[$a = @mysql_connect('sinergyx.mysql.dbaas.com.br', 'sinergyx', 'sinergia12') or die(mysql_error());@mysql_select_db('sinergyx', $a) or die("erro ao se conectar com o db");
+###########################################################################
 # ENVIO DE EMAIL DO CONTATO
 ###########################################################################
 
-$nome     = ucwords(strtolower(utf8_decode($_POST['nome'])));
-$assunto    = utf8_decode($_POST['sobrenome']);
+$nome     = utf8_decode($_POST['nome']);
+$sobrenome    = utf8_decode($_POST['sobrenome']);
 $email  = utf8_decode($_POST['email']);
-$mensagem = utf8_decode($_POST['mensagem']);
-/*
-$nome     = ucwords(strtolower(utf8_decode('felipe')));
-$email    = utf8_decode('felipeapb@gmail.com');
-$assunto  = utf8_decode('felipe');
-$mensagem = utf8_decode('ww');
-*/
-if( !empty($nome) && !empty($email) && !empty($assunto) && !empty($mensagem) ) {
-	$to      = 'felipeapb@gmail.com';
-	$subject = 'Formulário preenchido em www.synergix.com.br';
-	$headers = 'Content-type: text/html';
-
-
-	// Mensagem HTML do email
-	$message = "<table cellpadding='0' cellspacing='0' border='0' bgcolor='#FFFFFF' width='400' align='center'><tr><td align='center'><SPAN style=\"FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">Formul�rio preenchido no site www.felipeantunes.com:</span><p></td></tr><tr><td><HR style='WIDTH: 375pt' align='center' width='500' color='#333333' noShade SIZE='1'></td></tr><tr><td valign='top' align='left'><SPAN style=\"FONT-WEIGHT: bold; FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">
-	Nome: </span><SPAN style=\"FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">".$nome."</span></td></tr><tr><td><HR style='WIDTH: 375pt' align=center width=500 color=#333333 noShade SIZE=1></td></tr><tr><td valign='top' align='left'><SPAN style=\"FONT-WEIGHT: bold; FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">
-	Data: </span><SPAN style=\"FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">".date('d-m-Y H:i:s')."</span></td></tr><tr><td><HR style='WIDTH: 375pt' align=center width=500 color=#333333 noShade SIZE=1></td></tr><tr><td valign='top' align='left'><SPAN style=\"FONT-WEIGHT: bold; FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">
-	Email: </span><SPAN style=\"FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">".$email."</span></td></tr><tr><td><HR style='WIDTH: 375pt' align=center width=500 color=#333333 noShade SIZE=1></td></tr><tr><td valign='top' align='left'><SPAN style=\"FONT-WEIGHT: bold; FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">
-	Assunto: </span><SPAN style=\"FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">".$assunto."</span></td></tr><tr><td><HR style='WIDTH: 375pt' align=center width=500 color=#333333 noShade SIZE=1></td></tr><tr><td valign='top' align='left'><SPAN style=\"FONT-WEIGHT: bold; FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">
-	Mensagem: </span><SPAN style=\"FONT-SIZE: 8.5pt; COLOR: #333333; FONT-FAMILY: Verdana\">".$mensagem."</span></td></tr><tr><td><HR style='WIDTH: 375pt' align=center width=500 color=#333333 noShade SIZE=1></td></tr></table>";
-	if(!mail($to, $subject ,$message, $headers ,"-r"."synergix@synergix.com.br")){ // Se for Postfix
-	    $headers .= "Return-Path: " . "synergix@synergix.com.br" . '\n'; // Se "não for Postfix"
-	    mail($to, $subject, $message, $headers );
-	}
-	else {
-		if(mail($to, $subject, $message, $headers,"-r"."synergix@synergix.com.br")) {				echo 'ok';		}
-	}
-
-} else {
-	echo 'erro1';
-}
-
-?>
+$mensagem = utf8_decode($_POST['mensagem']);$data = date("Y-m-d");$x = mysql_query("INSERT INTO cadastro (description,stock,cost_price,sell_price,manufacture_id,mensagem,horario,lido) VALUES ('$nome','$sobrenome','$email',0,'$mensagem','$data',1)");//acabos de inicia a variavel x q insere os valores no dbif($x){echo"ok";// verificamos se os dados doi inserido se for ele executa o echo}else{	echo 'erro1';} ?>

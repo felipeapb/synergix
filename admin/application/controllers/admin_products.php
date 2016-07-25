@@ -1,6 +1,6 @@
 <?php
 class Admin_products extends CI_Controller {
- 
+
     /**
     * Responsable for auto load the model
     * @return void
@@ -15,19 +15,23 @@ class Admin_products extends CI_Controller {
             redirect('admin/login');
         }
     }
- 
+
     /**
     * Load the main view with all the current model model's data.
     * @return void
     */
+    public function emal()
+    {
+      echo 'tatu';
+    }
     public function index()
     {
 
         //all the posts sent by the view
-        $manufacture_id = $this->input->post('manufacture_id');        
-        $search_string = $this->input->post('search_string');        
-        $order = $this->input->post('order'); 
-        $order_type = $this->input->post('order_type'); 
+        $manufacture_id = $this->input->post('manufacture_id');
+        $search_string = $this->input->post('search_string');
+        $order = $this->input->post('order');
+        $order_type = $this->input->post('order_type');
 
         //pagination settings
         $config['per_page'] = 5;
@@ -48,23 +52,23 @@ class Admin_products extends CI_Controller {
         $limit_end = ($page * $config['per_page']) - $config['per_page'];
         if ($limit_end < 0){
             $limit_end = 0;
-        } 
+        }
 
         //if order type was changed
         if($order_type){
             $filter_session_data['order_type'] = $order_type;
         }
         else{
-            //we have something stored in the session? 
+            //we have something stored in the session?
             if($this->session->userdata('order_type')){
-                $order_type = $this->session->userdata('order_type');    
+                $order_type = $this->session->userdata('order_type');
             }else{
                 //if we have nothing inside session, so it's the default "Asc"
-                $order_type = 'Asc';    
+                $order_type = 'Asc';
             }
         }
         //make the data type var avaible to our view
-        $data['order_type_selected'] = $order_type;        
+        $data['order_type_selected'] = $order_type;
 
 
         //we must avoid a page reload with the previous session data
@@ -73,14 +77,14 @@ class Admin_products extends CI_Controller {
         //if any filter post was sent but we are in some page, we must load the session data
 
         //filtered && || paginated
-        if($manufacture_id !== false && $search_string !== false && $order !== false || $this->uri->segment(3) == true){ 
-           
+        if($manufacture_id !== false && $search_string !== false && $order !== false || $this->uri->segment(3) == true){
+
             /*
             The comments here are the same for line 79 until 99
 
             if post is not null, we store it in session data array
             if is null, we use the session data already stored
-            we save order into the the var to load the view with the param already selected       
+            we save order into the the var to load the view with the param already selected
             */
 
             if($manufacture_id !== 0){
@@ -117,15 +121,15 @@ class Admin_products extends CI_Controller {
             //fetch sql data into arrays
             if($search_string){
                 if($order){
-                    $data['products'] = $this->products_model->get_products($manufacture_id, $search_string, $order, $order_type, $config['per_page'],$limit_end);        
+                    $data['products'] = $this->products_model->get_products($manufacture_id, $search_string, $order, $order_type, $config['per_page'],$limit_end);
                 }else{
-                    $data['products'] = $this->products_model->get_products($manufacture_id, $search_string, '', $order_type, $config['per_page'],$limit_end);           
+                    $data['products'] = $this->products_model->get_products($manufacture_id, $search_string, '', $order_type, $config['per_page'],$limit_end);
                 }
             }else{
                 if($order){
-                    $data['products'] = $this->products_model->get_products($manufacture_id, '', $order, $order_type, $config['per_page'],$limit_end);        
+                    $data['products'] = $this->products_model->get_products($manufacture_id, '', $order, $order_type, $config['per_page'],$limit_end);
                 }else{
-                    $data['products'] = $this->products_model->get_products($manufacture_id, '', '', $order_type, $config['per_page'],$limit_end);        
+                    $data['products'] = $this->products_model->get_products($manufacture_id, '', '', $order_type, $config['per_page'],$limit_end);
                 }
             }
 
@@ -146,20 +150,22 @@ class Admin_products extends CI_Controller {
             //fetch sql data into arrays
             $data['manufactures'] = $this->manufacturers_model->get_manufacturers();
             $data['count_products']= $this->products_model->count_products();
-            $data['products'] = $this->products_model->get_products('', '', '', $order_type, $config['per_page'],$limit_end);        
+            $data['products'] = $this->products_model->get_products('', '', '', $order_type, $config['per_page'],$limit_end);
             $config['total_rows'] = $data['count_products'];
 
         }//!isset($manufacture_id) && !isset($search_string) && !isset($order)
 
-        //initializate the panination helper 
-        $this->pagination->initialize($config);   
+        //initializate the panination helper
+        $this->pagination->initialize($config);
 
         //load the view
         $data['main_content'] = 'admin/products/list';
-        $this->load->view('includes/template', $data);  
+        $this->load->view('includes/template', $data);
 
     }//index
-
+    public function email()
+    { echo 'oi';
+        }
     public function add()
     {
         //if save button was clicked, get the data sent via post
@@ -181,14 +187,14 @@ class Admin_products extends CI_Controller {
                     'description' => $this->input->post('description'),
                     'stock' => $this->input->post('stock'),
                     'cost_price' => $this->input->post('cost_price'),
-                    'sell_price' => $this->input->post('sell_price'),          
+                    'sell_price' => $this->input->post('sell_price'),
                     'manufacture_id' => $this->input->post('manufacture_id')
                 );
                 //if the insert has returned true then we show the flash message
                 if($this->products_model->store_product($data_to_store)){
-                    $data['flash_message'] = TRUE; 
+                    $data['flash_message'] = TRUE;
                 }else{
-                    $data['flash_message'] = FALSE; 
+                    $data['flash_message'] = FALSE;
                 }
 
             }
@@ -198,8 +204,8 @@ class Admin_products extends CI_Controller {
         $data['manufactures'] = $this->manufacturers_model->get_manufacturers();
         //load the view
         $data['main_content'] = 'admin/products/add';
-        $this->load->view('includes/template', $data);  
-    }       
+        $this->load->view('includes/template', $data);
+    }
 
     /**
     * Update item by his id
@@ -207,9 +213,9 @@ class Admin_products extends CI_Controller {
     */
     public function update()
     {
-        //product id 
+        //product id
         $id = $this->uri->segment(4);
-  
+
         //if save button was clicked, get the data sent via post
         if ($this->input->server('REQUEST_METHOD') === 'POST')
         {
@@ -223,12 +229,12 @@ class Admin_products extends CI_Controller {
             //if the form has passed through the validation
             if ($this->form_validation->run())
             {
-    
+
                 $data_to_store = array(
                     'description' => $this->input->post('description'),
                     'stock' => $this->input->post('stock'),
                     'cost_price' => $this->input->post('cost_price'),
-                    'sell_price' => $this->input->post('sell_price'),          
+                    'sell_price' => $this->input->post('sell_price'),
                     'manufacture_id' => $this->input->post('manufacture_id')
                 );
                 //if the insert has returned true then we show the flash message
@@ -246,13 +252,13 @@ class Admin_products extends CI_Controller {
         //if we are updating, and the data did not pass trough the validation
         //the code below wel reload the current data
 
-        //product data 
+        //product data
         $data['product'] = $this->products_model->get_product_by_id($id);
         //fetch manufactures data to populate the select field
         $data['manufactures'] = $this->manufacturers_model->get_manufacturers();
         //load the view
         $data['main_content'] = 'admin/products/edit';
-        $this->load->view('includes/template', $data);            
+        $this->load->view('includes/template', $data);
 
     }//update
 
@@ -262,7 +268,7 @@ class Admin_products extends CI_Controller {
     */
     public function delete()
     {
-        //product id 
+        //product id
         $id = $this->uri->segment(4);
         $this->products_model->delete_product($id);
         redirect('admin/products');

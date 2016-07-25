@@ -2,7 +2,9 @@
 		<hr>
 		<div class="inner">
 			<div class="container">
-				<p class="right"><a href="#">Back to top</a></p>
+				<p class="right"><a href="#">Voltar ao topo</a> - 
+  <a href="<?php echo base_url(); ?>admin/logout">Logout</a>
+				</p>
 				<p>
 				</p>
 			</div>

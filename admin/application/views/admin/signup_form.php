@@ -1,7 +1,7 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>CodeIgniter Admin Sample Project</title>
+    <title>Sinergyx</title>
     <meta charset="utf-8">
     <link href="<?php echo base_url(); ?>assets/css/admin/global.css" rel="stylesheet" type="text/css">
   </head>
@@ -9,10 +9,10 @@
 <?php
 //form validation
 echo validation_errors();
-?>  	
+?>
 <div class="container login">
 <?php
-$attributes = array('class' => 'form-signin');   
+$attributes = array('class' => 'form-signin');
 echo form_open('admin/create_member', $attributes);
 echo '<h2 class="form-signin-heading">Create an account</h2>';
 echo form_input('first_name', set_value('first_name'), 'placeholder="First name"');
@@ -30,5 +30,4 @@ echo form_close();
     <script src="<?php echo base_url(); ?>assets/js/jquery-1.7.1.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
   </body>
-</html>    
-    
+</html>
