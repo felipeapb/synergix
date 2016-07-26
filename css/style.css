@@ -109,6 +109,7 @@ h6{ color:#999;}
 .btn-floating{ height: 28px !important; width: 28px !important;}
 .gaia{ position: absolute; right:50%; margin-right: -200px;}
 .msg{ padding: 10px; text-align: center; margin: 10px 0 ;}
-.conteudo_box{ border:1px solid #eee; padding: 20px; height: 400px; overflow: auto}
-.v{ display: none;}
+.conteudo_box{ border:1px solid #eee; padding: 20px; height: 600px; overflow: auto}
+.v{ display: none; position: relative}
+.v img { width: 100%}
 .padrao{display: block !important}

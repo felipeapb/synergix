@@ -26,9 +26,7 @@ $(function() {
 
 $('.v').slideUp(500);
 $('.v1').removeClass('padrao');
-$('.v7').removeClass('padrao');
-
-
+$('.v6').removeClass('padrao');
 $('.'+destino).slideDown(600);
 
 });
@@ -43,7 +41,7 @@ $('.fechando').click(function() {
   $('.box_superior_servicos').fadeOut(1000);
   $('.a').fadeOut(1000);
   $('.v1').addClass('padrao');
-  $('.v7').addClass('padrao');
+  $('.v6').addClass('padrao');
 
 });
 
