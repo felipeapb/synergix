@@ -21,6 +21,17 @@ $(function() {
   });
 });
 
+  $('.linha').click(function() {
+  var destino= $(this).attr('data-destino');
+
+$('.v').slideUp(500);
+$('.v1').removeClass('padrao');
+$('.v7').removeClass('padrao');
+
+
+$('.'+destino).slideDown(600);
+
+});
   $('.d').click(function() {
   var destino= $(this).attr('data-destino');
   $('.box_superior_servicos').fadeIn(1000);
@@ -31,6 +42,8 @@ $(function() {
 $('.fechando').click(function() {
   $('.box_superior_servicos').fadeOut(1000);
   $('.a').fadeOut(1000);
+  $('.v1').addClass('padrao');
+  $('.v7').addClass('padrao');
 
 });
 
