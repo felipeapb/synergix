@@ -20,6 +20,9 @@ $(function() {
     }
   });
 });
+$('.side-nav').click(function() {
+$('.side-nav').hide();
+});
 
   $('.linha').click(function() {
   var destino= $(this).attr('data-destino');

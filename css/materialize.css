@@ -2911,8 +2911,8 @@ ul.staggered-list li {
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
-  .texto_destaque{ position: absolute; width: 290px !important; bottom: -700px; left:50% !important; margin-left: -145px !important;}
-
+  .texto_destaque{ font-size: 12px; position: absolute; width: 290px !important; bottom: -700px; left:50% !important; margin-left: -145px !important;}
+.texto{}
 }
 
 @media only screen and (max-width: 992px) {
